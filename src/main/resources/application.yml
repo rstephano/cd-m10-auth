@@ -1,0 +1,10 @@
+server:
+  port: 8080
+info:
+  component: Auth Service
+spring:
+  application:
+    name: auth-service
+  sleuth:
+    sampler:
+      probability: 1.0
